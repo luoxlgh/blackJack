@@ -24,13 +24,15 @@ node app.js
 ## 类图和交互图
 内有项目文档
 ### 客户端类：
-![person类图](https://github.com/luoxlgh/blackJack/image/personObj.png)
+![person类图](https://github.com/luoxlgh/blackJack/tree/master/image/personObj.png)
 
 ### 服务器端类：
-![poker类图](https://github.com/luoxlgh/blackJack/image/pokerObj.png)
-![room类图](https://github.com/luoxlgh/blackJack/image/roomObj.png)
+![poker类图](https://github.com/luoxlgh/blackJack/tree/master/image/pokerObj.png)
+![room类图](https://github.com/luoxlgh/blackJack/tree/master/image/roomObj.png)
 
 
 ### socket消息：
-![交互图](https://github.com/luoxlgh/blackJack/image/jiaohu.png)
+![交互图](https://github.com/luoxlgh/blackJack/tree/master/image/jiaohu.png)
+
+还有很多可以改进的地方 比如自适应啦等
 
