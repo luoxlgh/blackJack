@@ -1,0 +1,61 @@
+* {
+	  box-sizing: border-box;
+	  margin:0;
+	  padding: 0;
+	}
+body{width: 98%;height: 100%;background-color: #000;color: #fff; font: 20px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;}
+#header {text-align: center;margin: 50px 0;}
+#header h1{color: #fafafa;font: 60px/1.5 Tahoma;/*font-size: 60px;line-height: 90px;font-family: Tahoma;*/
+	letter-spacing: 0;
+	text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135 }
+#footer{/*padding-right: 20%;*/text-align: right;}
+#footer a{text-decoration: none;color: #fff;}
+#container{width: 60%;height: 300px;margin: 0 20%;overflow: auto;}
+#creatingPic{width: 40%;position: relative;}
+#pers{border-left: 3px solid #FFFFCC;
+-webkit-animation: cssload-rotate-pers 1.15s linear infinite;}
+
+@-webkit-keyframes cssload-rotate-pers {
+  0% {
+    -webkit-transform: rotateX(45deg) rotateY(55deg)  rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateX(45deg) rotateY(55deg)  rotateZ(360deg);
+  }
+}
+#pers2{border-bottom: 3px solid #e9908a;
+-webkit-animation: cssload-rotate-pers2 1.15s linear infinite;}
+
+@-webkit-keyframes cssload-rotate-pers2 {
+  0% {
+    -webkit-transform: rotateX(45deg) rotateY(135deg)  rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateX(45deg) rotateY(135deg)  rotateZ(360deg);
+  }
+}
+#pers3{border-top: 3px solid #FFFF99;
+-webkit-animation: cssload-rotate-pers3 1.15s linear infinite;}
+
+@-webkit-keyframes cssload-rotate-pers3 {
+  0% {
+    -webkit-transform: rotateX(60deg) rotateY(10deg)  rotateZ(0);
+  }
+  100% {
+    -webkit-transform: rotateX(60deg) rotateY(10deg)  rotateZ(360deg);
+  }
+}
+.rot{position: absolute;width: 200px;height: 200px;margin: 10px auto;border-radius: 50%;}
+
+#creatingSelection{width: 40%;float: right;height: 200px;text-align: center;position: relative;}
+@-webkit-keyframes greenPulse {
+  from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: #91bd09; -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; }
+}
+#submit{
+	width: 7rem;height: 2rem;border-radius: 0.5rem;border-color:#749a02;color: #fff; font-size: 1rem;
+	position: absolute;bottom: 1rem;left: 6rem;
+  	-webkit-animation: greenPulse 2s infinite;
+}
+#submit:hover,select:hover{cursor: pointer;}
