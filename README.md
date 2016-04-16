@@ -28,6 +28,7 @@ node app.js
 
 ### 服务器端类：
 ![poker类图](https://github.com/luoxlgh/blackJack/raw/master/image/pokerObj.png)
+
 ![room类图](https://github.com/luoxlgh/blackJack/raw/master/image/roomObj.png)
 
 
